@@ -1,2 +1,2 @@
 # Genome_annotation
-Improving genome annotations with tandem mass spectrometry data
+Improving genome annotation with tandem mass spectrometry data
