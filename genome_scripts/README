@@ -1,0 +1,8 @@
+install dependencies:
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install sklearn
+
+usage example:
+python /PATH/TO/classify_two_fasta_files.py fasta_file1 fasta_file2
