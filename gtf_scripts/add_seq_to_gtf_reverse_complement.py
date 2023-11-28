@@ -23,7 +23,8 @@ def add_seqs(input_genome_path, input_gtf_path):
             seq = ""
         df.at[index, 'Seq'] = seq
 
-    df.to_csv(input_gtf_path + '+seqs.gtf', sep='\t', header=False, index=False)
+    df.to_csv(input_gtf_path + '+rev_seqs.gtf', sep='\t', header=False, index=False)
+    print('File with sequences was saved to +seqs.gtf')
     return df
 
 def main(argv):
